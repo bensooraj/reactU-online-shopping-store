@@ -7,7 +7,7 @@ import './index.css';
 import App from './App';
 import store from "./config/store";
 
-const app = <Provider store={store }>
+const app = <Provider store={store}>
     <BrowserRouter>
         <App />
     </BrowserRouter>
