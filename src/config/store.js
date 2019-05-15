@@ -3,8 +3,10 @@ import {
     combineReducers
 } from 'redux'
 
-const rootReducer = combineReducers({
+import cartReducer from '../features/cart/reducer'
 
+const rootReducer = combineReducers({
+    cart: cartReducer
 })
 
 const store = createStore(
