@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and built following the [React University](https://www.youtube.com/channel/UCx4a8EMmXx-6RuJlyAKASoQ) tutorial for [Creating an Online Store](https://www.youtube.com/watch?v=d-A0Ccg8_40&list=PL7LIfgWox4loRljGGM4_ecoH4sXc-rxLp).
 
 ## Available Scripts
 
