@@ -4,9 +4,11 @@ import {
 } from 'redux'
 
 import cartReducer from '../features/cart/reducer'
+import productReducer from '../features/product-listing/reducer'
 
 const rootReducer = combineReducers({
-    cart: cartReducer
+    cart: cartReducer,
+    products: productReducer
 })
 
 const store = createStore(
