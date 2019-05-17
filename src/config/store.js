@@ -3,12 +3,17 @@ import {
     combineReducers
 } from 'redux'
 
+import {
+    reducer as formReducer
+} from 'redux-form'
+
 import cartReducer from '../features/cart/reducer'
 import productReducer from '../features/product-listing/reducer'
 
 const rootReducer = combineReducers({
     cart: cartReducer,
-    products: productReducer
+    products: productReducer,
+    form: formReducer,
 })
 
 const store = createStore(

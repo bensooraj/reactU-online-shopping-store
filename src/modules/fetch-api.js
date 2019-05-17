@@ -15,5 +15,9 @@ export default function fetchAPI(method, url, data) {
         },
         credentials: "same-origin",
         ...body
-    }).then(response => response.json())
+    })
+    .then(response => response.json())
+    .catch(error => {
+        console.log("fetchAPI: ", error);
+    })
 }
